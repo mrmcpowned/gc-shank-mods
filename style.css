@@ -1,1 +1,43 @@
 /* GC Edits */
+.edit .bumper {
+    width: 131px;
+    height: 100%;
+    background: url(R-button.svg) no-repeat;
+    background-position: 0 0;
+}
+
+.edit .bumpers {
+    width: 774px;
+    height: 69px;
+    top: 131px;
+    left: 102px;
+}
+
+.edit .bumper.left{
+    opacity: 1;
+    display: block;
+    background: url(L-button.svg) no-repeat;
+}
+
+.edit .bumper.pressed{
+    filter: invert(1)
+}
+
+.edit .back{
+    display: block;
+    background: url(https://gamepadviewer.com/gc-assets/buttons.svgz) no-repeat;
+    width: 158px;
+    height: 73px;
+    background-position: -358px 0px;
+    opacity: 1;
+    border: none;
+    border-radius: unset;
+    position: absolute;
+    top: -186px;
+    right: -380px;
+    filter: invert(1)
+}
+
+.edit .back.pressed{
+    filter: unset
+}
